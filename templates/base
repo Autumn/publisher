@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script src=marked.js>
+</script>
+</head>
+<body>
+
+<div>
+[<a href="/">home</a>] [<a href="contents.html">contents</a>] [<a href="links.html">links</a>]
+</div>
+
+<hr/>
+
+<div id=content>
+
+</div>
+
+<script>
+    var div = document.getElementById("content");
+    div.innerHTML = marked(div.innerHTML);
+</script>
+</body>
+</html>
